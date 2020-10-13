@@ -22,20 +22,19 @@ Cleaning the data and engineering the best possible features. Transformation fun
 ## Modelling
 I didn't get much improvement out of using tree-based methods, ultimately the Logistic Regression was more useful as I can easily view the model coefficients.
 I compared accuracy & recall to determine which model to use.
+Ultimately deciding on l2-Logistic Regression with upsampled, and one-hot encoded categoric variables.
 
 ## Findings
 Out of 96 variables, the ones most positively related to earning over $50,000 are:
-1) Number of persons working for employer. I think this is indicates company size
-2) Occupation = executive or manager
-3) Having a phd or professional school degree
-3) Being Self-employed
-5) Being Male
+1) Being aged above 40, particularly the 40 - 45 year group.
+2) Having a job code = Executive or Manager
+3) Being Male
+4) Having a Bachelor or Master's degree
 
 Lowest Negative coefficients are:
 1) having tax status = non-filer. This also could be indicative of other things, such as being unemployed.
-2) Being aged 20-30.
-3) Having high school level education
-4) Being Female
-5) Occupations = Admin or Other Services
+2) Working in Education or Retail.
+3) Being married with civilian spouse present (which means other partner is in the army)
+
 
 
