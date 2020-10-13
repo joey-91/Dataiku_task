@@ -21,6 +21,7 @@ Cleaning the data and engineering the best possible features. Transformation fun
 
 ## Modelling
 I didn't get much improvement out of using tree-based methods, ultimately the Logistic Regression was more useful as I can easily view the model coefficients.
+I compared accuracy & recall to determine which model to use.
 
 ## Findings
 Out of 96 variables, the ones most positively related to earning over $50,000 are:
