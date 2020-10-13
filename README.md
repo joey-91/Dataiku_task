@@ -11,7 +11,7 @@ Cleaning the data and engineering the best possible features. Transformation fun
 4) Treating any values labelled "Not in Universe" as missing.
 5) Re-labelling salary as a binary variable.
 6) Graphing frequency counts of all variables split by salary, to see which variables should be included in the model.
-7) Encoding categoric variables
+7) Encoding categoric variables, with first value dropped.
 8) Upsampling the minority salary class
 9) Regularizing the data
 10) Creating a train-test split
