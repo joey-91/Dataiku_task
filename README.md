@@ -4,7 +4,7 @@
 Using US census data from 1994-95 to build the best possible model, and exploring which demographic factors are the most predictive.
 
 ## Method
-Cleaning the data and engineering the best possible features. Transformation functions can be seen in a seperate .py file. Approach taken:
+Firstly cleaning the data and engineering the best possible features. Transformation functions can be seen in a seperate .py file. Then applying the most appropriate model. Steps taken:
 1) Concatenating train and test data, then dropping all duplicate records
 2) Converting age in to age ranges.
 3) Classing anyone with under 12th grade education as Children, and removing from the model, otherwise this would heavily bias the outcome. 
