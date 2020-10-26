@@ -11,11 +11,9 @@ Firstly cleaning the data and engineering the best possible features. Transforma
 6) Graphing frequency counts of all variables split by salary, to see which variables should be included in the model.
 7) Encoding categoric variables, with first value dropped.
 8) Upsampling the minority salary class
-9) Regularizing the data (made very little difference)
-10) Creating a train-test split
-11) Applying different models, looking out for model accuracy and recall scores.
-12) Analysing Logistic Regression coefficients 
-13) Building a more powerful Random Forest Classifier 
+9) Creating a train-test split
+10) Analysing Logistic Regression coefficients 
+11) Using a Bayesian Gridsearch approach to find the best model parameters for a higher variance model
 
 ## Modelling
 I didn't get much improvement out of using tree-based methods, ultimately the Logistic Regression was more useful as I can easily view the model coefficients.
