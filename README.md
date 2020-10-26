@@ -1,5 +1,3 @@
-# Dataiku_task
-
 ## Modelling whether someone makes > $50,000 per year.
 Using US census data from 1994-95 to build the best possible model, and exploring which demographic factors are the most predictive.
 
